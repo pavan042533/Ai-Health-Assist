@@ -28,3 +28,4 @@ func InitDB() {
 	DB = db
 	DB.AutoMigrate(&models.User{}, &models.Prescription{}, &models.ScannedMedication{})
 }
+
