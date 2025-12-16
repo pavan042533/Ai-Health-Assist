@@ -25,11 +25,11 @@ func FindBestDrugMatchWithAI(db *gorm.DB, input string) (DrugProduct, float64, e
 	}
 
 	// 2️ No good match found → AI fallback
-	ingredientName, err := AskAIForIngredient(input)
-	if err != nil || ingredientName == "" {
-		// Total failure
-		return DrugProduct{}, 0, err
-	}
+	// ingredientName, err := AskAIForIngredient(input)
+	// if err != nil || ingredientName == "" {
+	// 	// Total failure
+	// 	return DrugProduct{}, 0, err
+	// }
 
 	// 3. AI fallback
 	aiResponse, err := AskAIForIngredient(input)
