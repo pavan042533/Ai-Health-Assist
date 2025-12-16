@@ -6,6 +6,7 @@ require (
 	github.com/gofiber/fiber/v2 v2.52.9
 	github.com/google/generative-ai-go v0.15.1
 	github.com/joho/godotenv v1.5.1
+	github.com/lithammer/fuzzysearch v1.1.8
 	github.com/tmc/langchaingo v0.1.14
 	google.golang.org/api v0.218.0
 	gorm.io/driver/postgres v1.6.0
